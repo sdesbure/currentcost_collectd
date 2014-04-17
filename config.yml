@@ -1,0 +1,12 @@
+---
+collectd: # where your collectd server is
+  host: "localhost"
+  port: 25826
+  interval: 10000 # in ms
+currentcost: # usb port where currentcost is connected.
+  usb: "/dev/ttyUSB0"
+probes: # make the link between the sensor id with a human name
+  0:
+    name: "main"
+  2:
+    name: "pac"

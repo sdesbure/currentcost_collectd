@@ -19,7 +19,7 @@ go to the directory and install the needed packages (coffee-script is needed onl
 ``` bash
 $ cd rfxcom_collectd
 $ npm install collectdout require-yaml coffee-script
-$ git clone https://github.com/robrighter/node-currentcost.git
+$ git clone https://github.com/sdesbure/node-currentcost.git node_modules/currentcost
 ```
 
 configure the yaml file accordingly. Here's the default file where you need at least to put the good id for the probes:
